@@ -38,10 +38,16 @@ class MainViewController: UITableViewController {
         content.text = restaurantNames[indexPath.row]
         content.image = UIImage(named: restaurantNames[indexPath.row])
         content.imageProperties.maximumSize = CGSize(width: 100, height: 100)
+        content.imageProperties.cornerRadius = cell.frame.size.height / 2
+        
         
         cell.contentConfiguration = content
 
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 85
     }
 
     
