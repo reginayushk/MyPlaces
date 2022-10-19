@@ -14,6 +14,7 @@
 		5020BB7628FD806600AE8630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5020BB7428FD806600AE8630 /* LaunchScreen.storyboard */; };
 		5020BB7E28FD830800AE8630 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020BB7D28FD830800AE8630 /* MainViewController.swift */; };
 		50D9503F28FFFDB0004AC655 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D9503E28FFFDB0004AC655 /* CustomTableViewCell.swift */; };
+		50D9504129000BE6004AC655 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D9504029000BE6004AC655 /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5020BB7728FD806600AE8630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5020BB7D28FD830800AE8630 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		50D9503E28FFFDB0004AC655 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		50D9504029000BE6004AC655 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				5020BB6928FD806400AE8630 /* AppDelegate.swift */,
 				5020BB6B28FD806400AE8630 /* SceneDelegate.swift */,
 				50D9503E28FFFDB0004AC655 /* CustomTableViewCell.swift */,
+				50D9504029000BE6004AC655 /* PlaceModel.swift */,
 				5020BB7D28FD830800AE8630 /* MainViewController.swift */,
 				5020BB6F28FD806400AE8630 /* Main.storyboard */,
 				5020BB7228FD806600AE8630 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				5020BB7E28FD830800AE8630 /* MainViewController.swift in Sources */,
 				5020BB6A28FD806400AE8630 /* AppDelegate.swift in Sources */,
+				50D9504129000BE6004AC655 /* PlaceModel.swift in Sources */,
 				50D9503F28FFFDB0004AC655 /* CustomTableViewCell.swift in Sources */,
 				5020BB6C28FD806400AE8630 /* SceneDelegate.swift in Sources */,
 			);
