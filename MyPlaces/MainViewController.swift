@@ -59,6 +59,7 @@ class MainViewController: UITableViewController {
         guard let newPlaceVC = segue.source as? NewTableViewController else { return }
         newPlaceVC.saveNewPlace()
         places.append(newPlaceVC.newPlace!)
+        tableView.reloadData()
     }
     
 }

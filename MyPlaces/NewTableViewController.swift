@@ -8,7 +8,6 @@
 import UIKit
 
 class NewTableViewController: UITableViewController {
-    
     var newPlace: Place?
     var imageIsChanged = false
     

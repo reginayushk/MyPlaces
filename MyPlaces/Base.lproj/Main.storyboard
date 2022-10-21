@@ -143,9 +143,6 @@
                                                             <rect key="frame" x="0.0" y="28.333333333333339" width="358" height="34.666666666666657"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
-                                                            <connections>
-                                                                <outlet property="delegate" destination="WFa-g2-Y0T" id="Jby-RO-cYW"/>
-                                                            </connections>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -181,9 +178,6 @@
                                                             <rect key="frame" x="0.0" y="28.333333333333339" width="358" height="34.666666666666657"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
-                                                            <connections>
-                                                                <outlet property="delegate" destination="WFa-g2-Y0T" id="26A-xW-VRs"/>
-                                                            </connections>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -219,9 +213,6 @@
                                                             <rect key="frame" x="0.0" y="28.333333333333339" width="358" height="34.666666666666657"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
-                                                            <connections>
-                                                                <outlet property="delegate" destination="WFa-g2-Y0T" id="MA4-Cy-HNR"/>
-                                                            </connections>
                                                         </textField>
                                                     </subviews>
                                                 </stackView>
@@ -245,21 +236,21 @@
                     <navigationItem key="navigationItem" title="New Place" id="ntU-hT-PGT">
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="I1K-Hz-jQJ">
                             <connections>
-                                <action selector="cancelAction:" destination="WFa-g2-Y0T" id="6wM-kt-0cH"/>
+                                <action selector="cancelAction:" destination="WFa-g2-Y0T" id="edt-6z-iNY"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="T4D-bv-s1e">
                             <connections>
-                                <segue destination="aPy-9e-PSo" kind="unwind" unwindAction="unwindSegue:" id="rt7-Rn-U5L"/>
+                                <segue destination="aPy-9e-PSo" kind="unwind" unwindAction="unwindSegue:" id="yJn-mv-fGi"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="placeImage" destination="bho-8i-5Zr" id="AYS-6n-mkG"/>
-                        <outlet property="placeLocation" destination="16o-gP-spB" id="bb9-J0-II2"/>
-                        <outlet property="placeName" destination="k19-96-kIZ" id="C8L-DR-FRM"/>
-                        <outlet property="placeType" destination="qe3-6U-ay5" id="gvN-FG-u7w"/>
-                        <outlet property="saveButton" destination="T4D-bv-s1e" id="LB9-nv-qPY"/>
+                        <outlet property="placeImage" destination="bho-8i-5Zr" id="bN3-bD-h5n"/>
+                        <outlet property="placeLocation" destination="16o-gP-spB" id="jeo-a4-gYX"/>
+                        <outlet property="placeName" destination="k19-96-kIZ" id="gAa-nr-R1y"/>
+                        <outlet property="placeType" destination="qe3-6U-ay5" id="oEw-PT-q9h"/>
+                        <outlet property="saveButton" destination="T4D-bv-s1e" id="1W6-xc-nv9"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWE-y1-Ev3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
